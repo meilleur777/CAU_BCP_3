@@ -342,7 +342,7 @@ void itemMaker() {
 void itemCheck() {
 	for (int i = 0; i < 2; i++) {
 		if (items[i].exist) {
-			if (items[i].y <= 103 && cannon.x + 108 >= items[i].x + 20 && cannon.x + 12 <= items[i].x + 80) {
+			if (items[i].y + 35 <= 103 && cannon.x + 108 >= items[i].x + 20 && cannon.x + 12 <= items[i].x + 80) {
 				hideObject(items[i].object);
 				items[i].exist = false;
 
