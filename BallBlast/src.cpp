@@ -239,7 +239,7 @@ void hitBullet() {
 							balls[currentBall].power = pow(2, balls[currentBall].size);
 							do {
 								randnum = rand() % 5;
-							} while (balls[currentBall - 1].speedX == 5 * (randnum - 2));
+							} while (balls[currentBall - 1].speedX == 2 * (randnum - 2));
 							balls[currentBall].speedX = 2 * (randnum % 5 - 2);
 							balls[currentBall].speedY = -0.3;
 							balls[currentBall].item = false;
