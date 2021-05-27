@@ -269,7 +269,7 @@ void hitBullet() {
 void bulletInSky() {
 	for (int i = 0; i < BULLETNUMBER; i++) {
 		if (bullets[i].life) {
-			if (bullets[i].y > 720) {
+			if (bullets[i].y > 820) {
 				bullets[i].life = false;
 				hideObject(bullets[i].object);
 			}
@@ -441,8 +441,11 @@ void timerCallBack(TimerID timer) {
 				
 				balls[i].speedY += 0.05;
 				if (balls[i].y - balls[i].speedY <= 0)									//바닥에 공이 부딫히면
-					balls[i].speedY = -1 * ((double)(rand() % 5) + 6);					//랜덤으로 튀어오르는 속도 조정
-				else if (balls[i].y - balls[i].speedY >= 720) balls[i].speedY = -0.3;	//너무 위로 가지 않도록 조정
+					balls[i].speedY = -1 * ((double)(rand() % 5) + 6);					//랜덤한 속도로 튀어오른다
+				else if (balls[i].y - balls[i].speedY >= 720) {							//너무 위로 가지 않도록 조정
+					balls[i].speedY = 0.3;
+					
+				}																		
 			
 				balls[i].x += balls[i].speedX;
 				balls[i].y -= balls[i].speedY;
