@@ -93,6 +93,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_782F9906D698497CB9C7B17A12461148"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_79EF5207F16948189AD8B823832E6512"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -142,12 +148,6 @@
         "Entry"
         {
         "MsmKey" = "8:_D09B654A47094CDF827915ECC7283406"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D399A4EFD8474EFCA768E3E031E1EBA9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -236,6 +236,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -886,7 +894,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:BallBlastSetup"
         "ProductCode" = "8:{BD76F8A8-A594-48E8-AB75-FC5771D7629C}"
-        "PackageCode" = "8:{1421DB2C-A8DF-4875-A54A-762AEAEF6A9C}"
+        "PackageCode" = "8:{72109FA5-DC3C-4938-8DB1-DA15003DBE50}"
         "UpgradeCode" = "8:{563A8DFD-D757-4A8C-AF87-C85F1A3AB955}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -1014,7 +1022,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_D399A4EFD8474EFCA768E3E031E1EBA9"
+            "Target" = "8:"
             "Folder" = "8:_9E655853C9A6468A88C57CC25E6DD972"
             "WorkingFolder" = "8:_8CC09C775F95478A999D1A76B15E2353"
             "Icon" = "8:"
@@ -1419,35 +1427,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D0FB0EC08605423BB40191E10614A23F"
-            {
-            "SourcePath" = "8:"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_8CC09C775F95478A999D1A76B15E2353"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:LocalizedResourceDlls"
-            "OutputProjectGuid" = "8:{42F54A8C-5AD5-4EFF-8D8E-B9F292A473BF}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D399A4EFD8474EFCA768E3E031E1EBA9"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_782F9906D698497CB9C7B17A12461148"
             {
             "SourcePath" = "8:..\\BallBlast\\Release\\BallBlast.exe"
             "TargetName" = "8:"
