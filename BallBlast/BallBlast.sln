@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BallBlast", "BallBlast.vcxproj", "{42F54A8C-5AD5-4EFF-8D8E-B9F292A473BF}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BallBlastSetup", "..\BallBlastSetup\BallBlastSetup.vdproj", "{24CD4764-1EC9-4C07-992C-A681BEC0019B}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BallBlastInstaller", "..\BallBlastSetup\BallBlastSetup.vdproj", "{06B1B7C6-EAFF-4D62-A1D0-E50F420B4210}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{42F54A8C-5AD5-4EFF-8D8E-B9F292A473BF}.Release|x64.Build.0 = Release|x64
 		{42F54A8C-5AD5-4EFF-8D8E-B9F292A473BF}.Release|x86.ActiveCfg = Release|Win32
 		{42F54A8C-5AD5-4EFF-8D8E-B9F292A473BF}.Release|x86.Build.0 = Release|Win32
-		{24CD4764-1EC9-4C07-992C-A681BEC0019B}.Debug|x64.ActiveCfg = Debug
-		{24CD4764-1EC9-4C07-992C-A681BEC0019B}.Debug|x86.ActiveCfg = Debug
-		{24CD4764-1EC9-4C07-992C-A681BEC0019B}.Release|x64.ActiveCfg = Release
-		{24CD4764-1EC9-4C07-992C-A681BEC0019B}.Release|x86.ActiveCfg = Release
+		{06B1B7C6-EAFF-4D62-A1D0-E50F420B4210}.Debug|x64.ActiveCfg = Debug
+		{06B1B7C6-EAFF-4D62-A1D0-E50F420B4210}.Debug|x86.ActiveCfg = Debug
+		{06B1B7C6-EAFF-4D62-A1D0-E50F420B4210}.Release|x64.ActiveCfg = Release
+		{06B1B7C6-EAFF-4D62-A1D0-E50F420B4210}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
