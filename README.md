@@ -12,5 +12,3 @@
 
 ## 소개 영상
 https://youtu.be/xXpV2CdDmNQ
-
-setup파일 수정 필요
