@@ -123,6 +123,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_4FB8ECD943DD494CB0A6CD1DEFA20AE3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_5539454D768C41C8ADA9668360B31EB4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -750,6 +756,26 @@
             "TargetName" = "8:ball1.png"
             "Tag" = "8:"
             "Folder" = "8:_402EBD33EC5840ADBBA7216CD091BC27"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4FB8ECD943DD494CB0A6CD1DEFA20AE3"
+            {
+            "SourcePath" = "8:..\\..\\..\\Downloads\\cannon.ico"
+            "TargetName" = "8:cannon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_53C3AD4AEE7C4F57AB96A50EF7F5730B"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1594,7 +1620,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:BallBlastSetup"
         "ProductCode" = "8:{E35818A3-2644-46EE-A5DD-CB568C5F51E1}"
-        "PackageCode" = "8:{3C34F4F2-8730-4002-9126-C74F3066EF25}"
+        "PackageCode" = "8:{A0395B63-07BE-4B09-825A-76374640AB74}"
         "UpgradeCode" = "8:{FB1B54E7-81C6-4297-8039-D65215CF1C57}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -1716,7 +1742,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_BA0BB086AC4E4E2D934B05FED59D5824"
             {
-            "Name" = "8:Shortcut to 기본 출력 from BallBlast (Active)"
+            "Name" = "8:BallBlast"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -1725,12 +1751,12 @@
             "Target" = "8:_D33C7675DCEF446B88680167A5446A18"
             "Folder" = "8:_163CEF9F3E4F4F529E6F60F5BD0DF5E9"
             "WorkingFolder" = "8:_53C3AD4AEE7C4F57AB96A50EF7F5730B"
-            "Icon" = "8:"
+            "Icon" = "8:_4FB8ECD943DD494CB0A6CD1DEFA20AE3"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_BCFB1BD37F5B4567ADB7F287DB8EEF12"
             {
-            "Name" = "8:BallBlast_shortcut"
+            "Name" = "8:BallBlast"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -1739,7 +1765,7 @@
             "Target" = "8:_D33C7675DCEF446B88680167A5446A18"
             "Folder" = "8:_DCA689DFA4634CB99AD5B521220EEC00"
             "WorkingFolder" = "8:_53C3AD4AEE7C4F57AB96A50EF7F5730B"
-            "Icon" = "8:"
+            "Icon" = "8:_4FB8ECD943DD494CB0A6CD1DEFA20AE3"
             "Feature" = "8:"
             }
         }
