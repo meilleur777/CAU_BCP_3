@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 #define MIN(a, b) (((a) < (b)) ? (a) : (b))
-#define BULLETNUMBER 30
+#define BULLETNUMBER 20
 #define BALLNUMBER 10
 
 bool gameflag = false;
@@ -181,7 +181,7 @@ void locateItem() {
 		if (items[i].exist) locateObject(items[i].object, game, items[i].x, items[i].y);
 }
 
-//货肺款 醚舅 积己 (郸 备炼)
+//货肺款 醚舅 积己
 void fireBullet() {
 	char ch[50];
 	int t = currentBulletEnd++ % BULLETNUMBER;
@@ -269,7 +269,7 @@ void hitBullet() {
 void bulletInSky() {
 	for (int i = 0; i < BULLETNUMBER; i++) {
 		if (bullets[i].life) {
-			if (bullets[i].y > 820) {
+			if (bullets[i].y > 1100) {
 				bullets[i].life = false;
 				hideObject(bullets[i].object);
 			}
