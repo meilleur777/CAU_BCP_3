@@ -265,7 +265,7 @@ void hitBullet() {
 	}
 }
 
-//총알이 화면 밖으로 벗어났을 시 제거
+//총알의 높이가 일정치 이상일 시 제거
 void bulletInSky() {
 	for (int i = 0; i < BULLETNUMBER; i++) {
 		if (bullets[i].life) {
@@ -277,13 +277,13 @@ void bulletInSky() {
 	}
 }
 
-//모든 공이 부서졌을 경우 true를 리턴
+//클리어 여부 검사 - 모든 공이 부서졌을 경우 true를 리턴
 bool clearCheck() {
 	for (int i = 0; i < currentBall; i++) if (balls[i].life) return false;
 	return true;
 }
 
-//대포와 공의 충돌을 검사
+//실패 여부 검사 - 대포와 공의 충돌을 검사
 bool failCheck() {
 	if (armorFlag) return false;	//armor아이템 활성화 상태이면 검사 안함
 	for (int i = 0; i < currentBall; i++) {  
@@ -563,4 +563,6 @@ int main() {
 	stages[0].flag = true;
 
 	startGame(home);
+
+	return 0;
 }
