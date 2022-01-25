@@ -10,6 +10,3 @@
 
 ## 아이템
 무적, 공격력X2
-
-## 소개 영상
-https://youtu.be/DNuh5ERj9Us
